@@ -70,7 +70,7 @@ if user_input.isdigit():
         point_0 = sd.get_point(350, 350)
         pentagon(point_0, my_color, 0)
         point_0 = sd.get_point(350, 50)
-        hexagon(point_0, my_color, 0)
+        hexagon(point_0, my_color, 0, 50)
         sd.pause()
     else:
         print("Введите значение из списка")
