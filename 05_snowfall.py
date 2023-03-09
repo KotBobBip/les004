@@ -8,7 +8,7 @@ import simple_draw as sd
 # - нарисовать падение этих N снежинок
 # - создать список рандомных длинн лучей снежинок (от 10 до 100) и пусть все снежинки будут разные
 
-N = 20
+N = 50
 active_snowflakes = 20
 listDeathSnowflakes = []
 
@@ -23,7 +23,7 @@ listDeathSnowflakes = []
 def appentSnowflake(point_list):
     x = sd.random_number(0, 600)
     y = sd.random_number(300, 600)
-    snow_len = sd.random_number(10, 100)
+    snow_len = sd.random_number(10, 15)
     point_list.append([sd.get_point(x, y), snow_len])
     # len_list.append(snow_len)
 
